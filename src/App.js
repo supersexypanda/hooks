@@ -49,6 +49,7 @@ const options = [
 
 export default () => { 
     const [selected, setSelected] = useState(options[0]);
+    console.log("hi");
 
     return (
         <div>
